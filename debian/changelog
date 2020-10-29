@@ -1,0 +1,67 @@
+fcitx5-gtk (0.0~git20200819.d26dd52-1) unstable; urgency=medium
+
+  * Team upload.
+
+  [ Shengjing Zhu ]
+  * New upstream snapshot
+  * as-needed LDFLAGS is not needed since bullseye
+  * Change architecture from linux-any to any
+  * Update libfcitx5gclient1.symbols
+
+  [ Boyuan Yang ]
+  * debian/copyright: Consolidate copyright information
+
+ -- Shengjing Zhu <zhsj@debian.org>  Wed, 26 Aug 2020 12:01:39 +0800
+
+fcitx5-gtk (0.0~git20200606.fc335f1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Add libbrotli-dev to Build-Depends
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 03 Jul 2020 13:22:37 +0800
+
+fcitx5-gtk (0.0~git20200606.fc335f1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot. (Closes: #957197)
+  * Bump debhelper-compat to 13 and clean up d/rules
+  * Bump libfcitx5utils-dev to 0.0~git20200626
+  * Add missing libfcitx5gclient headers
+
+ -- Shengjing Zhu <zhsj@debian.org>  Thu, 02 Jul 2020 11:52:34 +0800
+
+fcitx5-gtk (0.0~git20200402.3e6795d-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot.
+  * Add libfcitx5gclient1.symbols
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 10 Apr 2020 22:36:11 +0800
+
+fcitx5-gtk (0.0~git20200319.22d30ef-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot.
+
+ -- Shengjing Zhu <zhsj@debian.org>  Tue, 24 Mar 2020 03:59:23 +0800
+
+fcitx5-gtk (0.0~git20200312.d36d72d-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream snapshot.
+  * Fix lintian: binary-control-field-duplicates-source
+
+ -- Shengjing Zhu <zhsj@debian.org>  Fri, 13 Mar 2020 15:48:17 +0800
+
+fcitx5-gtk (0.0~git20191111.6f9ef64-2) unstable; urgency=medium
+
+  * debian/control: Bump Standards-Version to 4.5.0.
+  * Source-only upload to allow testing migration.
+
+ -- Boyuan Yang <byang@debian.org>  Wed, 05 Feb 2020 16:54:09 -0500
+
+fcitx5-gtk (0.0~git20191111.6f9ef64-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #949345)
+
+ -- Boyuan Yang <byang@debian.org>  Mon, 25 Nov 2019 23:10:27 -0500
